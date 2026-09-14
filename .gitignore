@@ -1,0 +1,12 @@
+# YOLOv4 files
+input.bin
+yolov4.weights
+yolov4_out.bin
+
+# Futhark data files
+yolov4_input.bin
+yolov4_expected.bin
+
+# Other stuff
+yolov4.c
+yolov4
