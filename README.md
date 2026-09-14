@@ -14,13 +14,15 @@ to be used in this way.
 
 ## Usage
 
-Download `yolov4_input.bin`, which is a Futhark data file produced from
+Download `yolov4_input.bin` and `yolov4_expected.bin`, which are Futhark data
+files produced from
 [input.bin](https://github.com/remora-lang/remora/blob/4150daee8754d230da3a358c3320c821011a6b68/examples/darknet/input.bin)
 and
 [yolov4.weights](https://github.com/remora-lang/remora/blob/main/examples/darknet/yolov4.weights):
 
 ```
 $ curl -O https://sigkill.dk/junk/yolov4_input.bin
+$ curl -O https://sigkill.dk/junk/yolov4_expected.bin
 ```
 
 ### Benchmarking with sequential C backend
